@@ -128,7 +128,7 @@ export function StampGenerator() {
         link.download = 'stamp.png';
         link.href = dataUrl;
         link.click();
-      } catch (e) {
+      } catch {
         alert('PNG export failed. Please use the SVG download instead.');
       }
     }
